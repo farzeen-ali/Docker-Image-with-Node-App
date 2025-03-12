@@ -25,6 +25,11 @@ app.get("/", (req, res)=> {
                 employeeName: "King Kohli",
                 employeeSalary: 90000
             },
+            {
+                id: 5,
+                employeeName: "Bilal",
+                employeeSalary: 70000
+            },
         ]
     )
 })
